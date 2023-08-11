@@ -1,0 +1,57 @@
+#borrar{
+    text-align: center;
+}
+
+#toly_body{
+    background-color:  rgba(166, 130, 109, .2);
+}
+
+.toly_card{
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr;
+    grid-gap: 16px;
+}
+
+.toly_image_{
+    background: linear-gradient(to right, rgba(217, 54, 17, .2), white);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.toly_info_image{
+    background: linear-gradient(to left, rgba(217, 54, 17, .3), rgba(217, 54, 17, .3));
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid #333;
+    box-shadow: -6px -6px 10px rgba(0, 0, 0, 0.8);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.toly_fluid_image{
+    width: 300px;
+    height: 200px;
+    box-shadow: -6px -6px 10px rgba(0, 0, 0, 0.8);
+    border: 2px solid #ffffff;
+    border-radius: 10%;
+
+    /*margin: 0px;
+    padding-bottom: 0px;*/
+}
+
+.toly_text{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 4px;
+}
+
+.toly_info_text{
+    font-size: 25px;
+    font-family: Bodoni MT;
+    margin: 10px;
+    text-align: center;
+}
