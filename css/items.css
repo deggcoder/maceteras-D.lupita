@@ -15,7 +15,7 @@ body {
 }
 
 .main {
-  padding: 20px;
+  padding: 56px;
 }
 
 .productos {
@@ -46,5 +46,14 @@ body {
   margin-top: 5px;
   font-size: 14px;
   color: #666;
+}
+
+footer {
+  padding: 24px 80px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #06730230;
 }
 
