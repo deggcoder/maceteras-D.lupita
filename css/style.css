@@ -13,11 +13,16 @@
 }
 
 .toly_image_{
-    background: linear-gradient(to right, rgba(217, 54, 17, .2), white);
+    /*background: linear-gradient(to right, rgba(217, 54, 17, .2), white);
+    background: linear-gradient(to right, rgba(217, 54, 17, .25) 0%, white 45%, transparent 50%, transparent 100%);*/
+    background: linear-gradient(to right, transparent 0%, transparent 12.5%, rgba(217, 54, 17, 0.25) 12.5%, rgba(255, 255, 255, 1) 50%, transparent 50%, transparent 100%);
     text-align: center;
     align-items: center;
     justify-content: center;
+    
 }
+
+
 
 .toly_info_image{
     background: linear-gradient(to left, rgba(217, 54, 17, .3), rgba(217, 54, 17, .3));
