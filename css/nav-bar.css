@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+    padding: 0px 80px;
+    color: #D93611;
+    position: fixed;
+    width: 100%;
+
+    background-color: #fafafa80;
+    border-bottom: 3px solid #fafafa10;
+    backdrop-filter: blur(100px);
+}
+
+header > a {
+    text-decoration: none;
+    color: #D93611;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.nav-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 48px;
+    align-items: center;
+    margin-right: 160px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.nav-main > input {
+    border: 1px solid #D93611;
+    border-radius: 12px;
+    height: 32px;
+    padding: 4px;
+    background-color: transparent;
+}
+
+.nav-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+
+    text-decoration: none;
+}
+
+.nav-icons > a {
+    color: #D93611;
+}
+
+.nav-list > li > a {
+    text-decoration: none;
+    color: #D93611;
+}
